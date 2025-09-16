@@ -2,6 +2,13 @@
 <html>
 <head>
     <title>Rock Paper Scissors</title>
+    <style>
+        .scissors-button {
+            background-color: blue;
+            cursor: pointer;
+            color: white
+        }
+    </style>
 
 </head>
 <body>
@@ -61,7 +68,7 @@
         alert(`You picked paper. Computer picked ${computerMove}. ${result}`);
     */">Paper</button>
 
-    <button onclick="
+    <button class="scissors-button" onclick="
     pickcomputerMove();
         playGame('scissors');
         /*let randomNumber = Math.random();
